@@ -8,10 +8,10 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 class LaunchViewController : UIViewController {
     
-    @IBOutlet weak var animatedView: UIView!
     
     let imagelayer=CALayer()
     
