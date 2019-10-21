@@ -35,8 +35,8 @@
 		FBFD31DB235E45DA0085A409 /* ConfirmCheckIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFD31D6235E45DA0085A409 /* ConfirmCheckIn.storyboard */; };
 		FBFD31DC235E45DA0085A409 /* ConfirmGuardianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD31D8235E45DA0085A409 /* ConfirmGuardianViewController.swift */; };
 		FBFD31DD235E45DA0085A409 /* ConfirmGuardian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFD31D9235E45DA0085A409 /* ConfirmGuardian.storyboard */; };
-		FBFD31E4235E48750085A409 /* AddGuardianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD31E2235E48740085A409 /* AddGuardianViewController.swift */; };
-		FBFD31E5235E48750085A409 /* AddGuardian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFD31E3235E48750085A409 /* AddGuardian.storyboard */; };
+		FBFD31E8235E49520085A409 /* AddGuardian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFD31E6235E49520085A409 /* AddGuardian.storyboard */; };
+		FBFD31E9235E49520085A409 /* AddGuardianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD31E7235E49520085A409 /* AddGuardianViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,8 +71,8 @@
 		FBFD31D6235E45DA0085A409 /* ConfirmCheckIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConfirmCheckIn.storyboard; sourceTree = "<group>"; };
 		FBFD31D8235E45DA0085A409 /* ConfirmGuardianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmGuardianViewController.swift; sourceTree = "<group>"; };
 		FBFD31D9235E45DA0085A409 /* ConfirmGuardian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConfirmGuardian.storyboard; sourceTree = "<group>"; };
-		FBFD31E2235E48740085A409 /* AddGuardianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddGuardianViewController.swift; path = "../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/BA403924-0083-4CAE-A4C6-9DE9B85616E2/AddNewGuardian/AddGuardianViewController.swift"; sourceTree = "<group>"; };
-		FBFD31E3235E48750085A409 /* AddGuardian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AddGuardian.storyboard; path = "../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/BA403924-0083-4CAE-A4C6-9DE9B85616E2/AddNewGuardian/AddGuardian.storyboard"; sourceTree = "<group>"; };
+		FBFD31E6235E49520085A409 /* AddGuardian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddGuardian.storyboard; sourceTree = "<group>"; };
+		FBFD31E7235E49520085A409 /* AddGuardianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGuardianViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,8 @@
 		FBC92CAC235DF252003181A6 = {
 			isa = PBXGroup;
 			children = (
+				FBFD31E6235E49520085A409 /* AddGuardian.storyboard */,
+				FBFD31E7235E49520085A409 /* AddGuardianViewController.swift */,
 				FBC92CB7235DF252003181A6 /* GuardianApp */,
 				FBC92CB6235DF252003181A6 /* Products */,
 			);
@@ -115,8 +117,6 @@
 		FBC92CB7235DF252003181A6 /* GuardianApp */ = {
 			isa = PBXGroup;
 			children = (
-				FBFD31E3235E48750085A409 /* AddGuardian.storyboard */,
-				FBFD31E2235E48740085A409 /* AddGuardianViewController.swift */,
 				FBFD31D4235E45DA0085A409 /* ConfirmCheckIn */,
 				FBFD31D7235E45DA0085A409 /* ConfirmGuardian */,
 				FBFD31D2235E45900085A409 /* GuardianModel.swift */,
@@ -278,7 +278,7 @@
 				FBC92CC8235DF254003181A6 /* LaunchScreen.storyboard in Resources */,
 				FBC92CD8235DF488003181A6 /* StudentGuardianSelection.storyboard in Resources */,
 				FB1F6D85235E209900557A7E /* StudentList.storyboard in Resources */,
-				FBFD31E5235E48750085A409 /* AddGuardian.storyboard in Resources */,
+				FBFD31E8235E49520085A409 /* AddGuardian.storyboard in Resources */,
 				FBE7EE7F235E14AB0031DAD6 /* Launch.storyboard in Resources */,
 				FBC92CC5235DF254003181A6 /* Assets.xcassets in Resources */,
 				FBFD31DD235E45DA0085A409 /* ConfirmGuardian.storyboard in Resources */,
@@ -301,7 +301,7 @@
 				FB1F6D89235E23B300557A7E /* SearchStudentResultCell.swift in Sources */,
 				FBC92CDA235DFBFE003181A6 /* StudentGuardianCollectionCell.swift in Sources */,
 				FBFD31D3235E45900085A409 /* GuardianModel.swift in Sources */,
-				FBFD31E4235E48750085A409 /* AddGuardianViewController.swift in Sources */,
+				FBFD31E9235E49520085A409 /* AddGuardianViewController.swift in Sources */,
 				FBE7EE81235E14AB0031DAD6 /* InternetConnectionTest.swift in Sources */,
 				FBE7EE83235E14AB0031DAD6 /* RestHelper.swift in Sources */,
 				FBE7EE7E235E14AB0031DAD6 /* SetupViewController.swift in Sources */,
