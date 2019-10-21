@@ -19,6 +19,15 @@
 		FBC92CD6235DF463003181A6 /* StudentGuardianSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CD5235DF463003181A6 /* StudentGuardianSelectionViewController.swift */; };
 		FBC92CD8235DF488003181A6 /* StudentGuardianSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC92CD7235DF488003181A6 /* StudentGuardianSelection.storyboard */; };
 		FBC92CDA235DFBFE003181A6 /* StudentGuardianCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CD9235DFBFE003181A6 /* StudentGuardianCollectionCell.swift */; };
+		FBE7EE7D235E14AB0031DAD6 /* Setup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE7EE71235E14AB0031DAD6 /* Setup.storyboard */; };
+		FBE7EE7E235E14AB0031DAD6 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7EE72235E14AB0031DAD6 /* SetupViewController.swift */; };
+		FBE7EE7F235E14AB0031DAD6 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE7EE74235E14AB0031DAD6 /* Launch.storyboard */; };
+		FBE7EE80235E14AB0031DAD6 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7EE75235E14AB0031DAD6 /* LaunchViewController.swift */; };
+		FBE7EE81235E14AB0031DAD6 /* InternetConnectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7EE77235E14AB0031DAD6 /* InternetConnectionTest.swift */; };
+		FBE7EE82235E14AB0031DAD6 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7EE78235E14AB0031DAD6 /* CoreDataHelper.swift */; };
+		FBE7EE83235E14AB0031DAD6 /* RestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7EE79235E14AB0031DAD6 /* RestHelper.swift */; };
+		FBE7EE84235E14AB0031DAD6 /* DeviceRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE7EE7B235E14AB0031DAD6 /* DeviceRegistration.storyboard */; };
+		FBE7EE85235E14AB0031DAD6 /* RegistrationCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7EE7C235E14AB0031DAD6 /* RegistrationCheckViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +45,15 @@
 		FBC92CD5235DF463003181A6 /* StudentGuardianSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGuardianSelectionViewController.swift; sourceTree = "<group>"; };
 		FBC92CD7235DF488003181A6 /* StudentGuardianSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentGuardianSelection.storyboard; sourceTree = "<group>"; };
 		FBC92CD9235DFBFE003181A6 /* StudentGuardianCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGuardianCollectionCell.swift; sourceTree = "<group>"; };
+		FBE7EE71235E14AB0031DAD6 /* Setup.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setup.storyboard; sourceTree = "<group>"; };
+		FBE7EE72235E14AB0031DAD6 /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		FBE7EE74235E14AB0031DAD6 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		FBE7EE75235E14AB0031DAD6 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		FBE7EE77235E14AB0031DAD6 /* InternetConnectionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectionTest.swift; sourceTree = "<group>"; };
+		FBE7EE78235E14AB0031DAD6 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		FBE7EE79235E14AB0031DAD6 /* RestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestHelper.swift; sourceTree = "<group>"; };
+		FBE7EE7B235E14AB0031DAD6 /* DeviceRegistration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DeviceRegistration.storyboard; sourceTree = "<group>"; };
+		FBE7EE7C235E14AB0031DAD6 /* RegistrationCheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationCheckViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,10 @@
 		FBC92CB7235DF252003181A6 /* GuardianApp */ = {
 			isa = PBXGroup;
 			children = (
+				FBE7EE7A235E14AB0031DAD6 /* DeviceRegistration */,
+				FBE7EE73235E14AB0031DAD6 /* LaunchScreen */,
+				FBE7EE70235E14AB0031DAD6 /* Setup */,
+				FBE7EE76235E14AB0031DAD6 /* Util */,
 				BEAB38EC235E000E004BEDDF /* AddNewGuardian */,
 				FBC92CD4235DF44D003181A6 /* StudentGuardianSelection */,
 				FBC92CCF235DF275003181A6 /* SearchStudent */,
@@ -107,6 +129,43 @@
 				FBC92CD9235DFBFE003181A6 /* StudentGuardianCollectionCell.swift */,
 			);
 			path = StudentGuardianSelection;
+			sourceTree = "<group>";
+		};
+		FBE7EE70235E14AB0031DAD6 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				FBE7EE71235E14AB0031DAD6 /* Setup.storyboard */,
+				FBE7EE72235E14AB0031DAD6 /* SetupViewController.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		FBE7EE73235E14AB0031DAD6 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FBE7EE74235E14AB0031DAD6 /* Launch.storyboard */,
+				FBE7EE75235E14AB0031DAD6 /* LaunchViewController.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		FBE7EE76235E14AB0031DAD6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FBE7EE77235E14AB0031DAD6 /* InternetConnectionTest.swift */,
+				FBE7EE78235E14AB0031DAD6 /* CoreDataHelper.swift */,
+				FBE7EE79235E14AB0031DAD6 /* RestHelper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FBE7EE7A235E14AB0031DAD6 /* DeviceRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				FBE7EE7B235E14AB0031DAD6 /* DeviceRegistration.storyboard */,
+				FBE7EE7C235E14AB0031DAD6 /* RegistrationCheckViewController.swift */,
+			);
+			path = DeviceRegistration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,11 +226,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE7EE7D235E14AB0031DAD6 /* Setup.storyboard in Resources */,
 				FBC92CD1235DF285003181A6 /* SearchStudent.storyboard in Resources */,
 				FBC92CC8235DF254003181A6 /* LaunchScreen.storyboard in Resources */,
 				FBC92CD8235DF488003181A6 /* StudentGuardianSelection.storyboard in Resources */,
+				FBE7EE7F235E14AB0031DAD6 /* Launch.storyboard in Resources */,
 				FBC92CC5235DF254003181A6 /* Assets.xcassets in Resources */,
 				BEAB38EE235E0069004BEDDF /* AddGuardian.storyboard in Resources */,
+				FBE7EE84235E14AB0031DAD6 /* DeviceRegistration.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,8 +248,14 @@
 				BEAB38F0235E008D004BEDDF /* AddGuardianViewController.swift in Sources */,
 				FBC92CD3235DF299003181A6 /* SearchStudentViewController.swift in Sources */,
 				FBC92CDA235DFBFE003181A6 /* StudentGuardianCollectionCell.swift in Sources */,
+				FBE7EE81235E14AB0031DAD6 /* InternetConnectionTest.swift in Sources */,
+				FBE7EE83235E14AB0031DAD6 /* RestHelper.swift in Sources */,
+				FBE7EE7E235E14AB0031DAD6 /* SetupViewController.swift in Sources */,
+				FBE7EE85235E14AB0031DAD6 /* RegistrationCheckViewController.swift in Sources */,
 				FBC92CC3235DF252003181A6 /* GuardianApp.xcdatamodeld in Sources */,
 				FBC92CB9235DF252003181A6 /* AppDelegate.swift in Sources */,
+				FBE7EE82235E14AB0031DAD6 /* CoreDataHelper.swift in Sources */,
+				FBE7EE80235E14AB0031DAD6 /* LaunchViewController.swift in Sources */,
 				FBC92CBB235DF252003181A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

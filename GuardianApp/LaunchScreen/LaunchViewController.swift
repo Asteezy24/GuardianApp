@@ -12,6 +12,7 @@ import CoreData
 
 class LaunchViewController : UIViewController {
     
+    @IBOutlet var animatedView: UIView!
     
     let imagelayer=CALayer()
     
