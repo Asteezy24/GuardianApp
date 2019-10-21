@@ -10,4 +10,14 @@ import UIKit
 
 class SearchStudentViewController: UIViewController {
     
+    @IBAction func searchPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "StudentGuardianSelection", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "studentGuardianSelection")
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
