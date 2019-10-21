@@ -11,11 +11,24 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    let studentNames = ["Alex", "Anand", "Eric", "Richard", "Noah", "David"]
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch
+        
+        let managedContext = self.persistentContainer.viewContext
+        
+        let studentEntity = NSEntityDescription.entity(forEntityName: "Student", in: managedContext)!
+        
+        studentNames.forEach { name in
+            let student = NSManagedObject(entity: studentEntity, insertInto: managedContext)
+            student.setValue(name, forKey: "name")
+        }
+        
+        
         return true
     }
 

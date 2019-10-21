@@ -16,6 +16,7 @@
 		FBC92CD3235DF299003181A6 /* SearchStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CD2235DF299003181A6 /* SearchStudentViewController.swift */; };
 		FBC92CD6235DF463003181A6 /* StudentGuardianSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CD5235DF463003181A6 /* StudentGuardianSelectionViewController.swift */; };
 		FBC92CD8235DF488003181A6 /* StudentGuardianSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC92CD7235DF488003181A6 /* StudentGuardianSelection.storyboard */; };
+		FBC92CDA235DFBFE003181A6 /* StudentGuardianCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CD9235DFBFE003181A6 /* StudentGuardianCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FBC92CD2235DF299003181A6 /* SearchStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStudentViewController.swift; sourceTree = "<group>"; };
 		FBC92CD5235DF463003181A6 /* StudentGuardianSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGuardianSelectionViewController.swift; sourceTree = "<group>"; };
 		FBC92CD7235DF488003181A6 /* StudentGuardianSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentGuardianSelection.storyboard; sourceTree = "<group>"; };
+		FBC92CD9235DFBFE003181A6 /* StudentGuardianCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGuardianCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				FBC92CD5235DF463003181A6 /* StudentGuardianSelectionViewController.swift */,
 				FBC92CD7235DF488003181A6 /* StudentGuardianSelection.storyboard */,
+				FBC92CD9235DFBFE003181A6 /* StudentGuardianCollectionCell.swift */,
 			);
 			path = StudentGuardianSelection;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				FBC92CD6235DF463003181A6 /* StudentGuardianSelectionViewController.swift in Sources */,
 				FBC92CD3235DF299003181A6 /* SearchStudentViewController.swift in Sources */,
+				FBC92CDA235DFBFE003181A6 /* StudentGuardianCollectionCell.swift in Sources */,
 				FBC92CC3235DF252003181A6 /* GuardianApp.xcdatamodeld in Sources */,
 				FBC92CB9235DF252003181A6 /* AppDelegate.swift in Sources */,
 				FBC92CBB235DF252003181A6 /* SceneDelegate.swift in Sources */,
