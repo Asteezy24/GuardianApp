@@ -37,6 +37,7 @@
                     <connections>
                         <outlet property="animatedView" destination="n9D-Ke-3CY" id="qJy-Oi-aeS"/>
                         <segue destination="q16-Yv-f5b" kind="show" identifier="CheckRegistration" id="ShR-xd-uTC"/>
+                        <segue destination="nRb-UN-nbN" kind="show" identifier="ShowList" id="y6z-G1-g1d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEl-Ua-iCo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -50,6 +51,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rIb-8l-Upm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="478" y="338"/>
+        </scene>
+        <!--StudentList-->
+        <scene sceneID="vJw-vP-ft2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StudentList" id="nRb-UN-nbN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xPZ-An-c1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502" y="505"/>
         </scene>
     </scenes>
 </document>
