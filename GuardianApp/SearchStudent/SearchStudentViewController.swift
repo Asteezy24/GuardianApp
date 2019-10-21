@@ -17,13 +17,27 @@ class SearchStudentViewController: UIViewController {
     var filteredTableData = [String]()
     var listOfNames = [String]()
     var searchActive = false
+    var swipeCount = 0
     
     @IBOutlet var centerConstraint: NSLayoutConstraint!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super .viewWillAppear(animated)
+        swipeCount = 0
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchDummyData()
         tableView.register(SearchStudentResultCell.self, forCellReuseIdentifier: "result")
+        self.view.addGestureRecognizer(UISwipeGestureRecognizer(target: self, action: #selector(showSetup)))
+    }
+    
+    @objc func showSetup() {
+        swipeCount = swipeCount + 1
+        if(swipeCount == 3){
+        self.performSegue(withIdentifier: "showSetup", sender: self)
+        }
     }
     
     private func fetchDummyData() {
