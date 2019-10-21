@@ -94,17 +94,15 @@ extension SearchStudentViewController: UISearchBarDelegate {
               filteredTableData = array as! [String]
               tableView.reloadData()
     }
-    
-//    // MARK: SearchBar Methods
-//    func updateSearchResults(for searchController: UISearchController) {
-//      filteredTableData.removeAll(keepingCapacity: false)
-//      guard let text = searchController.searchBar.text else { return }
-//      let searchPredicate = NSPredicate(format: "SELF CONTAINS[c] %@", text)
-//
-//      guard let unwrappedListOfStocks = stockSearchViewModel?.model?.listOfStocks as? NSArray else { return }
-//      let array = (unwrappedListOfStocks).filtered(using: searchPredicate)
-//      filteredTableData = array as! [String]
-//      tableView.reloadData()
-//    }
 
+    
+}
+
+extension SearchStudentViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "StudentGuardianSelection", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "studentGuardianSelection")
+        controller.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
 }
