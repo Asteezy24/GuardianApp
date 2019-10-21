@@ -9,10 +9,20 @@
 import UIKit
 
 class SearchStudentResultCell: UITableViewCell {
-    @IBOutlet var nameLabel: UILabel!
+    
+    lazy var nameLabel: UILabel = {
+        let label = UILabel(frame: .zero)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "Alex"
+        return label
+    }()
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        nameLabel.text = "Alex"
+        addSubview(self.nameLabel)
+        nameLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
+        nameLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
+
     }
     
     required init?(coder: NSCoder) {

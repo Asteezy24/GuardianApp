@@ -18,8 +18,7 @@ class SearchStudentViewController: UIViewController {
     var listOfNames = [String]()
     var searchActive = false
     
-    //constraints
-    
+    @IBOutlet var centerConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,11 +45,23 @@ class SearchStudentViewController: UIViewController {
 
 extension SearchStudentViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCell(withIdentifier: "result", for: indexPath)
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "result", for: indexPath) as? SearchStudentResultCell {
+                cell.backgroundColor = .blue
+            cell.nameLabel.text = filteredTableData[indexPath.row]
+            return cell
+        }
+        
+        return UITableViewCell()
+
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        if self.searchActive {
+            return filteredTableData.count
+        } else {
+            return 0
+        }
     }
 }
 
@@ -58,11 +69,15 @@ extension SearchStudentViewController: UISearchBarDelegate {
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         print("started")
         searchActive = true
+        centerConstraint.constant = -100
+        //self.searchBar.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: -100).isActive = true
     }
     
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
         print("done")
         searchActive = false
+        centerConstraint.constant = 0
+        //self.searchBar.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 100).isActive = true
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
