@@ -30,7 +30,14 @@ class SearchStudentViewController: UIViewController {
         super.viewDidLoad()
         fetchDummyData()
         tableView.register(SearchStudentResultCell.self, forCellReuseIdentifier: "result")
-        self.view.addGestureRecognizer(UISwipeGestureRecognizer(target: self, action: #selector(showSetup)))
+        
+        let rotate = UIRotationGestureRecognizer(target: self, action:     #selector(rotatedView(_:)))
+        self.view.addGestureRecognizer(rotate)
+        
+    }
+    
+    @objc func rotatedView(_ sender: UIRotationGestureRecognizer) {
+        print(sender.rotation)
     }
     
     @objc func showSetup() {
