@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SyV-HG-GGP">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="L1d-wk-eBj">
+            <objects>
+                <viewController id="SyV-HG-GGP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j9X-Q8-wfQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="BvZ-r4-ZJc">
+                                <rect key="frame" x="41" y="425" width="324" height="56"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDP-hN-IRh">
+                                <rect key="frame" x="170.5" y="582" width="73" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Search"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Student Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sP-eS-gCF">
+                                <rect key="frame" x="41" y="246" width="324" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BvZ-r4-ZJc" firstAttribute="top" secondItem="5sP-eS-gCF" secondAttribute="bottom" constant="150" id="Q4v-Vf-9MH"/>
+                            <constraint firstItem="BvZ-r4-ZJc" firstAttribute="leading" secondItem="mpP-2z-YFY" secondAttribute="leading" constant="41" id="aMF-xG-F0k"/>
+                            <constraint firstItem="mpP-2z-YFY" firstAttribute="trailing" secondItem="BvZ-r4-ZJc" secondAttribute="trailing" constant="49" id="bO7-WW-pzd"/>
+                            <constraint firstItem="ZDP-hN-IRh" firstAttribute="centerX" secondItem="mpP-2z-YFY" secondAttribute="centerX" id="gnN-xF-6PA"/>
+                            <constraint firstItem="ZDP-hN-IRh" firstAttribute="top" secondItem="BvZ-r4-ZJc" secondAttribute="bottom" constant="101" id="o4y-sw-aC5"/>
+                            <constraint firstItem="5sP-eS-gCF" firstAttribute="trailing" secondItem="BvZ-r4-ZJc" secondAttribute="trailing" id="ypt-A3-6qP"/>
+                            <constraint firstItem="BvZ-r4-ZJc" firstAttribute="centerY" secondItem="mpP-2z-YFY" secondAttribute="centerY" id="zFS-28-71G"/>
+                            <constraint firstItem="5sP-eS-gCF" firstAttribute="leading" secondItem="BvZ-r4-ZJc" secondAttribute="leading" id="zab-Zw-fxQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mpP-2z-YFY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C5x-rK-MPn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="25.446428571428569"/>
+        </scene>
+    </scenes>
+</document>
