@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEAB38EE235E0069004BEDDF /* AddGuardian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB38ED235E0069004BEDDF /* AddGuardian.storyboard */; };
+		BEAB38F0235E008D004BEDDF /* AddGuardianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB38EF235E008D004BEDDF /* AddGuardianViewController.swift */; };
 		FBC92CB9235DF252003181A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CB8235DF252003181A6 /* AppDelegate.swift */; };
 		FBC92CBB235DF252003181A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CBA235DF252003181A6 /* SceneDelegate.swift */; };
 		FBC92CC3235DF252003181A6 /* GuardianApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CC1235DF252003181A6 /* GuardianApp.xcdatamodeld */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEAB38ED235E0069004BEDDF /* AddGuardian.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddGuardian.storyboard; sourceTree = "<group>"; };
+		BEAB38EF235E008D004BEDDF /* AddGuardianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuardianViewController.swift; sourceTree = "<group>"; };
 		FBC92CB5235DF252003181A6 /* GuardianApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardianApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC92CB8235DF252003181A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC92CBA235DF252003181A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEAB38EC235E000E004BEDDF /* AddNewGuardian */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB38ED235E0069004BEDDF /* AddGuardian.storyboard */,
+				BEAB38EF235E008D004BEDDF /* AddGuardianViewController.swift */,
+			);
+			path = AddNewGuardian;
+			sourceTree = "<group>";
+		};
 		FBC92CAC235DF252003181A6 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +77,7 @@
 		FBC92CB7235DF252003181A6 /* GuardianApp */ = {
 			isa = PBXGroup;
 			children = (
+				BEAB38EC235E000E004BEDDF /* AddNewGuardian */,
 				FBC92CD4235DF44D003181A6 /* StudentGuardianSelection */,
 				FBC92CCF235DF275003181A6 /* SearchStudent */,
 				FBC92CB8235DF252003181A6 /* AppDelegate.swift */,
@@ -157,6 +171,7 @@
 				FBC92CC8235DF254003181A6 /* LaunchScreen.storyboard in Resources */,
 				FBC92CD8235DF488003181A6 /* StudentGuardianSelection.storyboard in Resources */,
 				FBC92CC5235DF254003181A6 /* Assets.xcassets in Resources */,
+				BEAB38EE235E0069004BEDDF /* AddGuardian.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC92CD6235DF463003181A6 /* StudentGuardianSelectionViewController.swift in Sources */,
+				BEAB38F0235E008D004BEDDF /* AddGuardianViewController.swift in Sources */,
 				FBC92CD3235DF299003181A6 /* SearchStudentViewController.swift in Sources */,
 				FBC92CDA235DFBFE003181A6 /* StudentGuardianCollectionCell.swift in Sources */,
 				FBC92CC3235DF252003181A6 /* GuardianApp.xcdatamodeld in Sources */,
