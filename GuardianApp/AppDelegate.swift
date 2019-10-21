@@ -21,11 +21,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let managedContext = self.persistentContainer.viewContext
         
+        
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Student")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+
+        do {
+            try
+                managedContext.execute(deleteRequest)
+        } catch let error as NSError {
+            // TODO: handle the error
+        }
+        
         let studentEntity = NSEntityDescription.entity(forEntityName: "Student", in: managedContext)!
         
         studentNames.forEach { name in
             let student = NSManagedObject(entity: studentEntity, insertInto: managedContext)
             student.setValue(name, forKey: "name")
+            do {
+                try managedContext.save()
+            }
+            catch _ as NSError {
+                print("Could not update checkins")
+            }
         }
         
         

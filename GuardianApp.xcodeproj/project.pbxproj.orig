@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE52C2A5235E2EC700CBABB1 /* ConfirmCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE52C2A4235E2EC700CBABB1 /* ConfirmCheckInViewController.swift */; };
+		BE52C2A7235E2ED700CBABB1 /* ConfirmCheckIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE52C2A6235E2ED700CBABB1 /* ConfirmCheckIn.storyboard */; };
+		BE52C2A9235E308E00CBABB1 /* GuardianModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE52C2A8235E308E00CBABB1 /* GuardianModel.swift */; };
 		BEAB38EE235E0069004BEDDF /* AddGuardian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB38ED235E0069004BEDDF /* AddGuardian.storyboard */; };
 		BEAB38F0235E008D004BEDDF /* AddGuardianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB38EF235E008D004BEDDF /* AddGuardianViewController.swift */; };
+<<<<<<< HEAD
+		BEAB38F3235E23C5004BEDDF /* ConfirmGuardianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB38F2235E23C5004BEDDF /* ConfirmGuardianViewController.swift */; };
+		BEAB38F5235E242E004BEDDF /* ConfirmGuardian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB38F4235E242E004BEDDF /* ConfirmGuardian.storyboard */; };
+=======
 		FB1F6D85235E209900557A7E /* StudentList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1F6D82235E209900557A7E /* StudentList.storyboard */; };
 		FB1F6D86235E209900557A7E /* StudentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F6D83235E209900557A7E /* StudentListViewController.swift */; };
 		FB1F6D87235E209900557A7E /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F6D84235E209900557A7E /* StudentTableViewCell.swift */; };
 		FB1F6D89235E23B300557A7E /* SearchStudentResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F6D88235E23B300557A7E /* SearchStudentResultCell.swift */; };
+>>>>>>> 03e34a27526028cb0b417180aeda538a9f66b038
 		FBC92CB9235DF252003181A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CB8235DF252003181A6 /* AppDelegate.swift */; };
 		FBC92CBB235DF252003181A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CBA235DF252003181A6 /* SceneDelegate.swift */; };
 		FBC92CC3235DF252003181A6 /* GuardianApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC92CC1235DF252003181A6 /* GuardianApp.xcdatamodeld */; };
@@ -40,10 +48,15 @@
 		BE52C2A8235E308E00CBABB1 /* GuardianModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardianModel.swift; sourceTree = "<group>"; };
 		BEAB38ED235E0069004BEDDF /* AddGuardian.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddGuardian.storyboard; sourceTree = "<group>"; };
 		BEAB38EF235E008D004BEDDF /* AddGuardianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuardianViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		BEAB38F2235E23C5004BEDDF /* ConfirmGuardianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmGuardianViewController.swift; sourceTree = "<group>"; };
+		BEAB38F4235E242E004BEDDF /* ConfirmGuardian.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConfirmGuardian.storyboard; sourceTree = "<group>"; };
+=======
 		FB1F6D82235E209900557A7E /* StudentList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StudentList.storyboard; sourceTree = "<group>"; };
 		FB1F6D83235E209900557A7E /* StudentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentListViewController.swift; sourceTree = "<group>"; };
 		FB1F6D84235E209900557A7E /* StudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
 		FB1F6D88235E23B300557A7E /* SearchStudentResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStudentResultCell.swift; sourceTree = "<group>"; };
+>>>>>>> 03e34a27526028cb0b417180aeda538a9f66b038
 		FBC92CB5235DF252003181A6 /* GuardianApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardianApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC92CB8235DF252003181A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC92CBA235DF252003181A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +109,15 @@
 			path = AddNewGuardian;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+		BEAB38F1235E239A004BEDDF /* ConfirmGuardian */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB38F2235E23C5004BEDDF /* ConfirmGuardianViewController.swift */,
+				BEAB38F4235E242E004BEDDF /* ConfirmGuardian.storyboard */,
+			);
+			path = ConfirmGuardian;
+=======
 		FB1F6D81235E209900557A7E /* Student List */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +126,7 @@
 				FB1F6D84235E209900557A7E /* StudentTableViewCell.swift */,
 			);
 			path = "Student List";
+>>>>>>> 03e34a27526028cb0b417180aeda538a9f66b038
 			sourceTree = "<group>";
 		};
 		FBC92CAC235DF252003181A6 = {
@@ -125,11 +148,16 @@
 		FBC92CB7235DF252003181A6 /* GuardianApp */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				BE52C2A3235E2EA900CBABB1 /* ConfirmCheckIn */,
+				BEAB38F1235E239A004BEDDF /* ConfirmGuardian */,
+=======
 				FB1F6D81235E209900557A7E /* Student List */,
 				FBE7EE7A235E14AB0031DAD6 /* DeviceRegistration */,
 				FBE7EE73235E14AB0031DAD6 /* LaunchScreen */,
 				FBE7EE70235E14AB0031DAD6 /* Setup */,
 				FBE7EE76235E14AB0031DAD6 /* Util */,
+>>>>>>> 03e34a27526028cb0b417180aeda538a9f66b038
 				BEAB38EC235E000E004BEDDF /* AddNewGuardian */,
 				FBC92CD4235DF44D003181A6 /* StudentGuardianSelection */,
 				FBC92CCF235DF275003181A6 /* SearchStudent */,
@@ -263,8 +291,12 @@
 				FBC92CD1235DF285003181A6 /* SearchStudent.storyboard in Resources */,
 				FBC92CC8235DF254003181A6 /* LaunchScreen.storyboard in Resources */,
 				FBC92CD8235DF488003181A6 /* StudentGuardianSelection.storyboard in Resources */,
+<<<<<<< HEAD
+				BE52C2A7235E2ED700CBABB1 /* ConfirmCheckIn.storyboard in Resources */,
+=======
 				FB1F6D85235E209900557A7E /* StudentList.storyboard in Resources */,
 				FBE7EE7F235E14AB0031DAD6 /* Launch.storyboard in Resources */,
+>>>>>>> 03e34a27526028cb0b417180aeda538a9f66b038
 				FBC92CC5235DF254003181A6 /* Assets.xcassets in Resources */,
 				BEAB38F5235E242E004BEDDF /* ConfirmGuardian.storyboard in Resources */,
 				BEAB38EE235E0069004BEDDF /* AddGuardian.storyboard in Resources */,
@@ -285,16 +317,24 @@
 				FBC92CD3235DF299003181A6 /* SearchStudentViewController.swift in Sources */,
 				FB1F6D89235E23B300557A7E /* SearchStudentResultCell.swift in Sources */,
 				FBC92CDA235DFBFE003181A6 /* StudentGuardianCollectionCell.swift in Sources */,
+<<<<<<< HEAD
+				BE52C2A5235E2EC700CBABB1 /* ConfirmCheckInViewController.swift in Sources */,
+=======
 				FBE7EE81235E14AB0031DAD6 /* InternetConnectionTest.swift in Sources */,
 				FBE7EE83235E14AB0031DAD6 /* RestHelper.swift in Sources */,
 				FBE7EE7E235E14AB0031DAD6 /* SetupViewController.swift in Sources */,
 				FBE7EE85235E14AB0031DAD6 /* RegistrationCheckViewController.swift in Sources */,
+>>>>>>> 03e34a27526028cb0b417180aeda538a9f66b038
 				FBC92CC3235DF252003181A6 /* GuardianApp.xcdatamodeld in Sources */,
 				BE52C2A9235E308E00CBABB1 /* GuardianModel.swift in Sources */,
 				FBC92CB9235DF252003181A6 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
+				BEAB38F3235E23C5004BEDDF /* ConfirmGuardianViewController.swift in Sources */,
+=======
 				FB1F6D87235E209900557A7E /* StudentTableViewCell.swift in Sources */,
 				FBE7EE82235E14AB0031DAD6 /* CoreDataHelper.swift in Sources */,
 				FBE7EE80235E14AB0031DAD6 /* LaunchViewController.swift in Sources */,
+>>>>>>> 03e34a27526028cb0b417180aeda538a9f66b038
 				FBC92CBB235DF252003181A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
