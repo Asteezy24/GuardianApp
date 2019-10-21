@@ -99,8 +99,6 @@
 		FBC92CAC235DF252003181A6 = {
 			isa = PBXGroup;
 			children = (
-				FBFD31E6235E49520085A409 /* AddGuardian.storyboard */,
-				FBFD31E7235E49520085A409 /* AddGuardianViewController.swift */,
 				FBC92CB7235DF252003181A6 /* GuardianApp */,
 				FBC92CB6235DF252003181A6 /* Products */,
 			);
@@ -117,6 +115,7 @@
 		FBC92CB7235DF252003181A6 /* GuardianApp */ = {
 			isa = PBXGroup;
 			children = (
+				FBFD31EA235E4ABC0085A409 /* AddGuardian */,
 				FBFD31D4235E45DA0085A409 /* ConfirmCheckIn */,
 				FBFD31D7235E45DA0085A409 /* ConfirmGuardian */,
 				FBFD31D2235E45900085A409 /* GuardianModel.swift */,
@@ -214,6 +213,15 @@
 			name = ConfirmGuardian;
 			path = GuardianApp/ConfirmGuardian;
 			sourceTree = SOURCE_ROOT;
+		};
+		FBFD31EA235E4ABC0085A409 /* AddGuardian */ = {
+			isa = PBXGroup;
+			children = (
+				FBFD31E7235E49520085A409 /* AddGuardianViewController.swift */,
+				FBFD31E6235E49520085A409 /* AddGuardian.storyboard */,
+			);
+			path = AddGuardian;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 

@@ -64,6 +64,9 @@
                                 <rect key="frame" x="159" y="664" width="96" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Add New"/>
+                                <connections>
+                                    <action selector="addNewPressed:" destination="Bbm-xk-P38" eventType="touchUpInside" id="Ip6-Yq-vDF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

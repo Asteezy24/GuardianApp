@@ -13,14 +13,14 @@ class StudentGuardianCollectionCell: UICollectionViewCell {
     private lazy var nameLabel: UILabel = {
         let label = UILabel(frame: .zero)
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Alex"
+        label.text = "Name"
         return label
     }()
     
     private lazy var relationshipLabel: UILabel = {
         let label = UILabel(frame: .zero)
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Stevens"
+        label.text = "Relationship"
         return label
     }()
     

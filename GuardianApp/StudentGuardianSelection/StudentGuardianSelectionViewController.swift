@@ -13,6 +13,14 @@ class StudentGuardianSelectionViewController: UIViewController {
     
     @IBOutlet var collectionView: UICollectionView!
     
+    @IBAction func addNewPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "ConfirmGuardian", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "ConfirmGuardian")
+        controller.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(controller, animated: true)
+        
+    }
+    
     
     
     override func viewDidLoad() {
@@ -56,5 +64,12 @@ extension StudentGuardianSelectionViewController: UICollectionViewDelegateFlowLa
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "ConfirmCheckIn", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "ConfirmCheckIns")
+        controller.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(controller, animated: true)
     }
 }
