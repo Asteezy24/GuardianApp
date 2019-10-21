@@ -2,6 +2,7 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G8037" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Device_Info" representedClassName="Device_Info" syncable="YES" codeGenerationType="class">
         <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Student" representedClassName="Student" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO">
@@ -13,6 +14,6 @@
     </entity>
     <elements>
         <element name="Student" positionX="-63" positionY="-18" width="128" height="73"/>
-        <element name="Device_Info" positionX="-63" positionY="0" width="128" height="60"/>
+        <element name="Device_Info" positionX="-63" positionY="0" width="128" height="75"/>
     </elements>
 </model>
