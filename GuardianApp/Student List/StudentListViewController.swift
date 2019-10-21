@@ -88,14 +88,14 @@ class StudentListViewController : UIViewController, UITableViewDataSource, UITab
         
         cell.fname.text = student!.fname
         cell.lname.text = student!.lname
-        
-        if(student!.checked){
-            cell.checkMark.image = UIImage(named: "checkmark")
-        }
-        else {
-            cell.checkMark.image = nil
-        }
-        
+//        
+//        if(student!.checked){
+//            cell.checkMark.image = UIImage(named: "checkmark")
+//        }
+//        else {
+//            cell.checkMark.image = nil
+//        }
+//        
         cell.fname.numberOfLines=0;
         cell.fname.font = UIFont(name: "HelveticaNeue", size: 20)
         cell.fname.minimumScaleFactor = 0.1
